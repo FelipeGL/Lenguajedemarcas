@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<marcadores>
+		<web>
+			<nombre>El Pais</nombre>
+			<url>elpais.es</url>
+		</web>
+		<web>
+			<nombre>ABC</nombre>
+			<url>abc.es</url>
+		</web>
+		<web>
+			<nombre>Marca</nombre>
+			<url>marca.com</nombre>
+		</web>
+		<web>
+			<nombre>xakata</nombre>
+			<url>xakata.com</url>
+		</web>
+		<web>
+			<nombre>Sevilla fc</nombre>
+			<url>sevillafc.es</url>
+		</web>
+</marcadores>

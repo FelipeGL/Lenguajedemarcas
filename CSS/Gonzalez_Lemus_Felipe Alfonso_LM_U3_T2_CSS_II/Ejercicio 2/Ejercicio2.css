@@ -1,0 +1,44 @@
+
+body {margin-right: 650px}
+
+/* Titulo */
+h1 {color: darkcyan;}
+strong {color: red}
+span {color: red}
+span.destacado {color: darkorange}
+
+/* Subtitulo */
+h2 {color: blue}
+a {color: red}
+a em {color: blue}
+span.especial {color: purple}
+caption {color: blue}
+
+/* Descripción de la tabla y su contenido */
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+}
+th {
+    height: 25px;
+    color: red;
+    border: 1px solid black;
+    text-align: center;
+}
+td {
+    height: 25px;
+    color: green;
+    border: 1px solid black; 
+    text-align: center;
+}
+p strong {color:red}
+th.especial {color: darkorange}
+strong {color: darkorange}
+
+/* Adicional */
+div#adicional {color: #909000}
+div span {color: #909000}
+span#especial {color: hotpink}
+div a {color: green}

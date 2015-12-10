@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="">
+<font face="Calibrí">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="">
+</head>
+
+<body>
+<fieldset style="background-color:#F5F5F5; border:#FFFFFF">    
+    <form>
+        <fieldset style="background-color:#EBEBF1; border:#FFFFFF">
+	       <center>
+	           <th><b>HOJA DE INSCRIPCIÓN <br> EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</b></th>
+	       </center>
+	   </fieldset>
+	</form>
+    <br>
+    <form>
+	<fieldset style=background-color:#EBEBF1>
+        <legend style="background:white; border:3px solid #EBEBF1">Datos personales <u><font color="purple"><b>(*)</b></font></u></legend>
+            <table border=0>
+                <tr>
+                    <td>Apellidos:</td>
+                    <td>Nombre:</td>
+                    <td>DNI:</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Apellidos" size="35" maxlength="25" ></td>
+                    <td><input type="text" name="Nombre" size="18" maxlength="17"></td>
+                    <td><input type="text" name="DNI" size="14" maxlength="9"></td>
+                </tr>
+                <tr>
+                    <td>Nacido/a en:</td>
+                    <td>Provincia:</td>
+                    <td>Fecha de nacimiento (dd/mm/aaaa):</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Nacido/a en" size="25" maxlength="15"></td>
+                    <td>
+                    <select><option value="0">Valencia</option><option value="1">Sevilla</option><option value="2">Madrid</option><option value="3">Barcelona</option><option value="4">Otra</option></select>
+                    </td>
+                    <td><input type="text" name="Fecha de nacimiento" size="14" maxlength="15"></td>
+                </tr>	
+                <tr>
+                    <td colspan="2">Domicilio (Calle, plaza y número):</td>
+                    <td>Código Postal:</td>
+                </tr>	
+                <tr>
+                    <td colspan="2"><input type="text" name="Domicilio" size="53" maxlength="15"></td>
+                    <td><input type="text" name="Código postal" size="6" maxlength="5"></td>
+                </tr>	
+                <tr>
+                    <td>Localidad:</td>
+                    <td>Provincia:</td>
+                    <td>Teléfono:</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Localidad"size="28" maxlength="25"></td>
+                    <td><select><option value="0">Valencia</option><option value="1">Sevilla</option><option value="2">Madrid</option><option value="3">Barcelona</option><option value="4">Otra</option></select></td>
+                    <td><input type="text" name="Teléfono"size="10" maxlength="9"></td>	
+                </tr>
+	       </table>
+	   </fieldset>
+    </form>
+    <br>
+    <form>    
+        <fieldset style=background-color:#FFFFCC>
+            <legend style="background:white; border:3px solid #FFFFCC">Requisitos de acceso</legend>
+        <dl>
+            <dt><input type="radio" name="requisito">Directo</dt>
+                <dd><input type="radio" name="directo">Bachillerato LOGSE. Modalidad: <input type="text" name="logse"></dd>
+                <dd><input type="radio" name="directo">Bachillerato experimental</dd>
+                <dd><input type="radio" name="directo">COU. Opción:  <input type="text" name="cou"</dd>
+                <dd><input type="radio" name="directo">FP2</dd>
+                <dd><input type="radio" name="directo">Otros (especifique): <input type="text" name="otros"</dd>
+                <dt><input type="radio" name="requisito">Mediante prueba
+            </dt>
+        </dl>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset style=background-color:#99CCFF>
+            <legend style="background:white; border:3px solid #99CCFF">Solicitud</legend>
+                    El/la que suscribe desea ser admitido en este centro para cursar el ciclo formativo de grado superior:<br>
+                    Ciclo formativo:   
+                      <select name="tipo_grado">
+                        <option value='0'></option>
+                        <option value='1'>Desarrollo de aplicaciones web</option>
+                        <option value='2'>Sistemas de Telecomunicaciones e Informáticos</option>
+                        <option value='3'>Comercio y Márquetin</option>
+                        <option value='4'>Administración de sistemas en red</option>
+                        </select><br>
+                     En caso de no ser admitido/a, solicita la admisión por orden de preferencia en los siguientes:<br>
+                <table>
+                    <tr>
+                        <td><b>Ciclos formativos</b></td>
+                        <td><b>Centros</b></td>
+                        <td><b>Localidad</b></td>
+                    </tr>
+                    <tr>
+                        <td><input size="30" type="text" name="cilo1"></td>
+                        <td><input size="25" type="text" name="centro1"></td>
+                        <td><input size="20" type="text" name="localidad1"></td>
+                    </tr>
+                    <tr>
+                        <td><input size="30" type="text" name="cilo2"></td>
+                        <td><input size="25" type="text" name="centro2"></td>
+                        <td><input size="20" type="text" name="localidad2"></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">Modalidad de horario especial (marque):
+                          <input type="checkbox" name="modalidad"></td>
+                    </tr>      
+                </table>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+	   <fieldset style=background-color:#FFBFD4>
+	   <legend style="background:white; border:3px solid #FFBFD4">Documentación presentada </legend>
+            <table border="0">
+                <tbody>
+                    <tr>
+                        <td><label><input type="checkbox" name="Fotocopia_DNI"> .Fotocopia DNI</label></td> 
+                        <td><label><input type="checkbox" name="Certificado_academico"> Certificado académico</label></td>
+                    </tr>
+                    <tr>
+	               <td colspan="2"><label><input type="checkbox" name="Otros_documentos">Otros documentos</label> (especifique): <input type="text" name="Otros_documentos" size="35" maxlength="35">
+                    </tr>
+                </tbody>
+            </table>
+	   </fieldset>
+	</form>    
+    <br>
+    <form>
+	   <fieldset style=background-color:#FFDAB4>
+	       <legend style="background:white; border:3px solid #FFDAB4">Comunicación</legend>
+	De acuerdo con el articulo 42.2 de la Ley 30/1992, de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común,
+según la nueva redacción de la Ley 4/1999, de 13 de enero, se informa que:<br>
+	           <ul>
+		          <li>El plazo máximo para resolver la presente solicitud es de 3 meses desde la fecha en que haya tenido entrada en el registro del órgano competente para la tramitación, sin perjuicio de lo previsto en el artículo 42.5 de la misma ley.</li>
+		          <li>El efecto que producirá el silencio administrativo si transcurre el plazo sin que se haya dictado y notificado la resolución correspondiente, es desestimatorio de la solicitud.</li>
+	           </ul>
+	               <p><input type="text" name="Sitio" size="15" maxlength="20"> , <input type="text" name="Día" size="5" maxlength="2"> de <input type="text" name="Mes"size="15" maxlength="9"> de <select>
+	<option>2006</option><option>2007</option><option>2008</option><option>2009</option><option>2010</option><option>2011</option>
+	<option>2012</option> <option>2013</option> <option>2014</option> <option>2015</option></select></p>
+                <div id="firma">
+                    <p>La persona solicitante,</p>
+                </div>
+                <div id="registro">
+                    <p align=right><textarea style=resize:none class=estilotextarea cols="17" rows="8" >Registro de entrada</textarea>       </p>
+                </div>
+
+                    <p></p>
+
+                    <p align="left">Firma</p>
+        </fieldset>
+    </form>   
+    <form>
+	   <p><fieldset style="border-style:dashed; border-color:black"><small>(*) Los datos personales contenidos en este impreso podrán ser incluidos en un fichero para su tratamiento por la Conselleria de Cultura y Educación, en el uso de las funciones propias que tiene atribuidas en el ámbito de sus competencias, pudiendo dirigirse a cualquier órgano de la misma para ejercitarlos derechos de acceso, rectificación, cancelación y oposición, según lo dispuesto en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal (BOE núm 298, de 14 de diciembre
+de 1999).</small></fieldset></p>
+	</form> 
+	<center><h3>DIRECTOR/A O TITULAR DEL CENTRO</h3></center>       
+</fieldset>
+</body>
+</font>
+</html>

@@ -1,0 +1,272 @@
+
+
+/* Enlace */
+
+#enlace {
+    text-align: right;
+    border 0px;
+    margin-right: 20px;
+}
+
+/* Contenedor */
+
+#contenedor {
+    overflow-y: auto;
+    width: 850px;
+    margin: 0px auto;
+}
+
+/* Cabecera */
+
+#cabecera {
+   overflow-y: auto;
+    border: 0px;
+    margin-left: 10px;
+}
+
+#logo {
+    float: left;
+    display: inline;
+    width: 170px;
+    border: none;
+}
+
+#pc1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 35px;
+}
+
+#pc2 {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+#call {
+    float: left;
+    display: inline;
+    width: 290px;
+    border: none;
+    text-align: right;
+    margin-left: 40px;
+}
+
+#free {
+    float: left;
+    display: inline;
+    width: 200px;
+    background-color: #32CD32;
+    text-align: center;
+    padding: 15px 10px;
+    color: white;
+    font-weight: bold;
+    margin: 30px 10px;
+    border-radius: 3px;
+    border: 0px;
+}
+
+#login {
+    float: left;
+    display: inline;
+    width: 50px;
+    text-align: center;
+    color: white;
+    background-color: dimgrey;
+    padding: 15px 10px;
+    border-radius: 3px;
+    border: 0px;
+    margin: 30px 10px;
+    font-weight: bold;
+}
+
+/* Menu */
+
+#menu {
+    overflow-y: auto;
+    width: 850px;
+    border-radius: 3px;
+    background-color: dodgerblue;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#menu div {
+    padding: 15px 10px;
+}
+
+#home {
+    float: left;
+    display: inline;
+    width: 50px;
+    text-align: center;
+    background-color: #4169E1;
+    color: white;
+    font-weight: bold;
+}
+
+#tour {
+    float: left;
+    display: inline;
+    width: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-right: 1px solid grey;
+}
+
+#pricing {
+    float: left;
+    display: inline;
+    width: 120px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-right: 1px solid grey;
+}
+
+#mobile {
+    float: left;
+    display: inline;
+    width: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-right: 1px solid grey;
+}
+
+#about {
+    float: left;
+    display: inline;
+    width: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-right: 1px solid grey;
+}
+
+#account {
+    float: left;
+    display: inline;
+    width: 80px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#addons {
+    float: left;
+    display: inline;
+    width: 60px;
+    text-align: center;
+}
+
+#api {
+    float: left;
+    display: inline;
+    width: 30px;
+    text-align: center;
+}
+
+#blogs {
+    float: left;
+    display: inline;
+    width: 30px;
+    text-align: center;
+}
+
+#support {
+    float: left;
+    display: inline;
+    width: 30px;
+    text-align: center;
+}
+
+/* Contenido */
+
+#contenido {
+    height: 450px;
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 3px;
+}
+
+#fila1 {
+    padding-left: 35px;
+    padding-top: 23px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+#fila2 {
+    color: white;
+    padding-left: 35px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+#fila3 {
+    width: 250px;
+    height: 15px;
+    text-align: left;
+    color: grey;
+    background-color: white;
+    padding: 10px 8px;
+    margin-left: 35px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    border: 0px; 
+}
+
+#fila4 {
+    width: 250px;
+    height: 15px;
+    text-align: left;
+    color: grey;
+    background-color: white;
+    padding: 10px 8px;
+    margin-left: 35px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    border: 0px; 
+}
+
+#fila5 {
+    background-color: #32CD32;
+    text-align: center;
+    padding: 15px 10px;
+    color: white;
+    font-weight: bold;
+    margin: 30px 35px;
+    width: 165px;
+    border: 0px;
+    border-radius: 2px;
+}
+
+#columna1 {
+    float: right;
+    color: white;
+    margin-bottom: 250px;
+    margin-right: 300px;
+    font-size: 10px;
+}
+
+#pf1 {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#pf2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#pf3 {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#pf4 {
+    margin-top: 5px;
+    margin-bottom: 10px; 
+}

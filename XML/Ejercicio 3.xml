@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<horario>
+		<vuelo>
+			<compania>iberia</compania>
+			<nºdevuelo>2341</nºdevuelo>
+			<origen>Avila</origen>
+			<destino>Zamora</destino>
+			<ruta>32</ruta>
+			<horadesalida>11:45</horadesalida>
+			<llegada>12:45</llegada>
+		</vuelo>
+		<vuelo>
+			<compania>vueling</compania>
+			<nºdevuelo>34321</nºdevuelo>
+			<origen>Londres</origen>
+			<destino>Sevilla</destino>
+			<ruta>44</ruta>
+			<horadesalida>17:30</horadesalida>
+			<llegada>19:00</llegada>
+		</vuelo>
+		<vuelo>
+			<compania>Ryanair</compania>
+			<nºdevuelo>1688</nºdevuelo>
+			<origen>Tokyo</origen>
+			<destino>Madrid</destino>
+			<ruta>89</ruta>
+			<horadesalida>5:00</horadesalida>
+			<llegada>19:00</llegada>
+		</vuelo>
+		<vuelo>
+			<compania>Fly Emirates</compania>
+			<nºdevuelo>5678</nºdevuelo>
+			<origen>Arabia Saaudí</origen>
+			<destino>Paris</destino>
+			<ruta>33</ruta>
+			<horadesalida>14:00</horadesalida>
+			<llegada>21:00</llegada>
+		</vuelo>
+		<vuelo>
+			<compania>Iberia</compania>
+			<nºdevuelo>12</nºdevuelo>
+			<origen>Sevilla</origen>
+			<destino>Lanzarote</destino>
+			<ruta>76</ruta>
+			<horadesalida>15:30</horadesalida>
+			<llegada>16:45</llegada>
+		</vuelo>
+</horario>

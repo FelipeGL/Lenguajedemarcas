@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<agenda>
+		<persona>
+				<nombre>Antonio Jurado</nombre>
+				<telefono>629017437</telefono>
+		</persona>
+		<persona>
+				<nombre>Juan Muñoz</nombre>
+				<telefono>673467893</telefono>
+		</persona>
+		<persona>
+				<nombre>Manuel Diaz</nombre>
+				<telefono>654343499</telefono>
+		</persona>
+		<persona>
+				<nombre>Felipe Gonzalez</nombre>
+				<telefono>789334612</telefono>
+		</persona>
+		<persona>
+				<nombre>Gonzalo Ruiz</nombre>
+				<telefono>654789342</telefono>
+		</persona>
+</agenda>
+				
+				
+
+
+
+

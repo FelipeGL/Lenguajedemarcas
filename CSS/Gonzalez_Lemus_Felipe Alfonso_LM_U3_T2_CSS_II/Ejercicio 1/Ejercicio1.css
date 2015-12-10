@@ -1,0 +1,14 @@
+
+p {color: #555; font-family:sans-serif}
+#primero p {color: #0035D4}
+a:link {color: red}
+#primero em {
+background: #FFFFCC; 
+padding: .1em; 
+}
+p em.especial { 
+background: #FFCC99; 
+border: 1px solid #FF9900;
+padding: .1em; 
+}
+p span {font-weight: bold}
