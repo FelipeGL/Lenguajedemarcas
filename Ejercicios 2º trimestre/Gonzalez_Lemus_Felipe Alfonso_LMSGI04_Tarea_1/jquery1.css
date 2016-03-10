@@ -1,0 +1,26 @@
+.titulo {
+    background-color: black;
+    color: white;
+}
+
+table {
+    border: 1px solid;   
+}
+
+td {
+    border: 1px solid;   
+}
+
+#t1 {
+    margin-bottom: 30px;
+}
+
+.c1 {
+    background-color: grey;
+    color: black;
+}
+
+.c2 {
+    background-color: brown;
+    color: white;
+}

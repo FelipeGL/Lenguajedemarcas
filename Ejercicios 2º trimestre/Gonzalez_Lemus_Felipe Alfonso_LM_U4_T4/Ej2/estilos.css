@@ -1,0 +1,98 @@
+#contenedor {
+    background-color: dimgrey;
+    border: 1px dashed white;
+    width: 900px;
+    margin: 70px auto;
+    height: 430px;
+    border-radius: 12px;
+}
+
+#uno {
+    background-color: red;
+    border: 1px dashed white;
+    display: inline;
+    float: left;
+    width: 70px;
+    height: 400px;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#dos {
+    background-color: orange;
+    border: 1px dashed white;
+    display: inline;
+    float: left;
+    width: 70px;
+    height: 400px;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#tres {
+    background-color: limegreen;
+    border: 1px dashed white;
+    display: inline;
+    float: left;
+    width: 70px;
+    height: 400px;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#cuatro {
+    background-color: skyblue;
+    border: 1px dashed white;
+    display: inline;
+    float: left;
+    width: 70px;
+    height: 400px;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#cinco {
+    background-color: hotpink;
+    border: 1px dashed white; 
+    display: inline;
+    float: left;
+    width: 70px;
+    height: 400px;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.vertical {
+    color: white;
+    vertical-align: baseline;
+    float: left;
+    display: inline;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.num {
+   color: white;
+    float: left;
+    display: inline;
+    
+}
+
+div div div {
+    float: left;
+    height: 350px;
+}
+
+.contenido {
+    width: 350px;
+    background-color: white;
+    float: left;
+    padding: 10px;
+}

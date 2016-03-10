@@ -1,0 +1,90 @@
+#contenedor {
+    overflow: auto;
+    margin: 10px auto;
+}
+
+#contenido1 {
+    width: 400px;
+    height: 400px;
+    margin: 1px auto;
+}
+
+#d1 {
+    text-align: center;
+    margin: 1px auto;
+}
+
+#f1 {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#tamaño {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#contenido2 {
+    width: 400px;
+    height: 400px;
+    margin: 1px auto;
+}
+
+#d2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 1px auto;
+    background-color: coral;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#rotor {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#contenido3 {
+    width: 400px;
+    height: 400px;
+    margin: 1px auto;
+}
+
+#d3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 1px auto;
+    background-color: rgb(0,0,0);
+}
+
+#R {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#G {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#B {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+h3 {
+    text-align: center;   
+}
+
+p{
+    margin: 0px;   
+}

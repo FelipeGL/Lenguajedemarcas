@@ -1,0 +1,31 @@
+#contenedor {
+    overflow-y: auto;
+    width: 350px;
+    position: fixed;
+    left: 0px;
+    top: 100px;
+}
+
+#f1 {
+    width: 300px;
+    
+}
+
+#menu {
+    width: 300px;
+    border: 1px black solid;
+}
+
+#f2 {
+    float: left;
+    width: 300px;
+    height: 100px;
+}
+
+#flecha2 {
+    margin-left: 50px;
+}
+
+#flecha1 {
+    margin-left: 50px;   
+}

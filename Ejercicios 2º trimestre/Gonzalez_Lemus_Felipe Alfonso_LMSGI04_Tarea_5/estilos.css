@@ -1,0 +1,86 @@
+#contenedor {
+    margin: 10px auto;
+    width: 1000px;
+    height: 1000px;  
+    padding: 10px; 
+}
+
+#contenido {
+    margin: 10px auto;
+    overflow overflow-y: auto;
+    height: 500px;
+    float: left;
+}
+
+.parrafo{
+    background-color: #00994d;
+    float: right;
+    width: 230px;
+    display: inline;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+}
+
+.cg {
+    float: left;
+    display: inline;
+    margin-right: 5px
+}
+
+#arriba {
+    width: 250px;
+    height: 150px;
+    float: right;
+    margin-left: 800px;
+    margin-right: 80px;
+}
+
+#barra {
+    height: 110px;
+
+    
+    
+}
+
+#bizq {
+    width: 150px;
+    height: 100px;
+    padding-right: 20px;
+    border-right: 1px solid black;
+    display: inline;
+    float: left;
+}
+
+.boton {
+    width: 150px; 
+    margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#bder1 {
+    background-color: red;
+    display: inline;
+    float: left;
+    width: 400px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+#bder2 {
+    background-color: blue;
+    display: inline;
+    float: left;
+    width: 400px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+#bder3 {
+    background-color: green;
+    display: inline;
+    float: left;
+    width: 400px;
+    height: 100px;
+    margin-left: 20px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+  </head>
+  <body>
+        <table id="tabla">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>11</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>09</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>68</td>
+            <td></td>
+            <td></td>
+        </tr>
+        </table>
+        <button id="añadir" type="button">Añadir</button>
+        <button id="borrar" type="button">Borrar</button>
+        <button id="rellenar" type="button">Rellenar</button>
+        <p></p>  
+        <input id="input" type="text"/>
+      <script type="text/javascript">
+        //This part is executed only when all the document is loaded
+        $(function() {
+            console.log("Ready for jQuery");
+            
+        $("#añadir").click(function(event) {
+        $("#tabla").append("<tr>"+$("#tabla tr:last-child").html()+"</tr>");
+        });
+         
+        $("#borrar").click(function(event) {
+        $("#tabla tr:last").remove();
+        });
+            
+        $("#rellenar").click(function(event){
+        $("tr").children().html($("#input").val())
+        }); 
+               
+            
+        });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+#body {
+    width: 1000px;
+    height: 1000px;
+}
+
+#contenedor {
+    width: 700px;
+    height: 700px;
+    margin: 10px auto;
+}
+
+#contenido1 {
+    width: 700px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+#contenido2 {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+#input {
+    float: left;
+    display: inline;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#boton {
+    float: left;
+    display: inline;
+    margin-top: 30px;
+}
+
+#contador {
+    float: left;
+    display: inline;
+    width: 300px;
+}

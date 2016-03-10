@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+  </head>
+  <body>
+      
+      <h1>Galería de fotos</h1>
+      <div id="contenedor">
+            <div id="imagenes">
+                <img src="s6-1.jpg">
+                <img src="Xiaomi-Mi5-leak_55.jpg">
+                <img src="Sony-Xperia-Z5-en-costa-rica.jpg">
+                <img src="1-mrnjpkcy-google-nexus-6-azul-medianoche-64gb-libre-2.png">
+                <img src="iphone-6splus-colors.jpg">
+            </div>  
+        <div id="fizq"><img id="f1" src="flechaizq.png"></div>
+        <div id="fder"><img id="f2" src="flechader.png"></div>
+      </div>
+      <script type="text/javascript">
+        //This part is executed only when all the document is loaded
+        $(function() {
+           console.log("Ready for jQuery");
+           $("div#imagenes img").hide();
+           $("div#imagenes img").eq(0).show();
+              current=0;
+           $("#fizq").hide();
+            
+            $("#fder").click(function(event) {
+                $("#fizq").show();
+                $("div#imagenes img").eq(current).hide();
+                current=current+1;
+                if (current==4) {
+                    $("#fder").hide();
+                } 
+                $("div#imagenes img").eq(current).show();
+              
+            });
+            
+            $("#fizq").click(function(event) {
+                $("#fder").show();
+                $("div#imagenes img").eq(current).hide();
+                current=current-1;
+                if (current==0) {
+                    $("#fizq").hide();
+                } 
+                $("div#imagenes img").eq(current).show();
+               
+            });
+            
+        
+        });
+   
+      </script>
+  </body>
+</html>

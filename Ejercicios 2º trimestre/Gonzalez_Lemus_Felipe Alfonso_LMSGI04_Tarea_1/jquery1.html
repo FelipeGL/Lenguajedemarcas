@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="jquery1.css">
+  </head>
+  <body>
+      <h1>Hola jquery</h1>
+      <table id="t1">
+        <tr>
+            <td>Hora</td>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miercoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+        </tr>
+        <tr>
+            <td>8:15-9:15</td>
+            <td>GBD</td>
+            <td>LGM</td>
+            <td>ISO</td>
+            <td>LGM</td>
+            <td>ISO</td>
+        </tr>
+        <tr>
+            <td>9:15-10:15</td>
+            <td>GBD</td>
+            <td>LGM</td>
+            <td>ISO</td>
+            <td>LGM</td>
+            <td>ISO</td>
+        </tr>
+        <tr>
+            <td>10:15-11:15</td>
+            <td>GBD</td>
+            <td></td>
+            <td>ISO</td>
+            <td></td>
+            <td>FHDW</td>
+        </tr>
+        <tr>
+            <td>11:45-12:45</td>
+            <td>REDES</td>
+            <td>ISO</td>
+            <td>GBD</td>
+            <td>REDES</td>
+            <td>FHDW</td>
+        </tr>
+        <tr>
+            <td>12:45-13:45</td>
+            <td>REDES</td>
+            <td>ISO</td>
+            <td>GBD</td>
+            <td>REDES</td>
+            <td>FHDW</td>
+        </tr>  
+        <tr>
+            <td>13:45-14:45</td>
+            <td>REDES</td>
+            <td>ISO</td>
+            <td>GBD</td>
+            <td>REDES</td>
+            <td></td>
+        </tr> 
+      </table>
+      <table id="t2">
+        <tr>
+           <td>Hola</td> 
+        </tr>    
+        <tr>
+           <td>Hola</td> 
+        </tr>
+        <tr>
+           <td>Hola</td> 
+        </tr>
+        <tr>
+           <td>Hola</td> 
+        </tr>
+        <tr>
+           <td>Hola</td> 
+        </tr>
+        <tr>
+           <td>Hola</td> 
+        </tr>  
+        <tr>
+           <td>Hola</td> 
+        </tr>
+        <tr>
+           <td>Hola</td> 
+        </tr>
+        <tr>
+           <td>Hola</td> 
+        </tr>  
+        <tr>
+           <td>Hola</td> 
+        </tr>
+      </table>
+      
+      <p>hola mundo</p>
+      <p class="show">hola mundo</p>
+      <p>hola mundo</p>
+      <p>hola mundo</p>
+      
+      <script type="text/javascript">
+        //This part is executed only when all the document is loaded
+        $(document).ready(function() {
+            console.log("Ready for jQuery");
+            
+            $("h1").addClass("titulo");
+            $("#t1 tr:first").css({"background-color":"red","color":"white"});
+            $("#t2 tr:odd").addClass("c1");
+            $("#t2 tr:even").addClass("c2");
+            $('p').hide();
+            $('.show').show(); 
+            
+            
+        });
+      </script>
+  </body>
+</html>

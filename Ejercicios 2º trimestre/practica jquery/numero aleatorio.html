@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+
+<body id="body">
+    <div id="contenedor">
+        <div id="contenido1">
+            <div id="contador"><h1 class="h1">Nº de intentos: 0</h1></div>
+            <div id="input">
+                <input type="text">
+            </div>
+            <div id="boton">
+                <button>COMPROBAR</button>
+            </div>
+        </div>
+        <div id="contenido2">
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            console.log("Ready for jQuery");
+            
+            var intentos = 0;
+
+            $(".img").hide();
+
+            var numero = Math.floor((Math.random() * 20) + 1);
+            console.log(numero);
+            $("#boton").click(function () {
+                
+                intentos = intentos + 1;
+                $(".h1").html("Nº de intentos: " + intentos);
+
+                var valor = parseInt($("input").val());
+                console.log(valor);
+                if (valor < numero) {
+                    $("#contenido2").append("<p>ES MAYOR</p>");
+                } else if (valor > numero) {
+                    $("#contenido2").append("<p>ES MENOR</p>");
+                } else {
+                    $("#contenido2").empty()
+                    $("#contenido2").append("<p>¡¡¡HAS GANADO!!!</p><img src='trofeo.jpg'>");
+                    $(".img").show();
+                }
+
+            });
+
+        });
+    </script>
+</body>
+
+</html>

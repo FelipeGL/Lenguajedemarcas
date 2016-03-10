@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+  </head>
+  <body>
+      <div id="contenedor">
+          <div id="arriba">
+            <p class="parrafo">CONTROLES GENERALES</p>  
+            <button class="cg " type="button">OCULTA/MOSTRAR</button>
+            <button class="reset" id="cg" type="reset">RESETEAR</button>
+          
+          </div>
+          <div id="contenido">
+            <div id="barra">
+                <div id="bizq">
+                    <button id="r1" class="boton" type="button">OCULTA/MOSTRAR</button>
+                    <button id="r2" class="boton" type="button">+50</button>
+                    <button id="r3" class="boton" type="button">-50</button>
+                </div>  
+                <div class="barra" id="bder1"></div>
+            </div>      
+            <div id="barra">
+                <div id="bizq">
+                    <button id="a1" class="boton" type="button">OCULTA/MOSTRAR</button>
+                    <button id="a2" class="boton" type="button">+50</button>
+                    <button id="a3" class="boton" type="button">-50</button>
+                </div>  
+                <div class="barra" id="bder2"></div>
+            </div> 
+            <div id="barra">
+                <div id="bizq">
+                    <button id="v1" class="boton" type="button">OCULTA/MOSTRAR</button>
+                    <button id="v2" class="boton" type="button">+50</button>
+                    <button id="v3" class="boton" type="button">-50</button>
+                </div>  
+                <div class="barra" id="bder3"></div>
+            </div> 
+          </div>
+      </div>
+      <script type="text/javascript">
+        //This part is executed only when all the document is loaded
+        $(function() {
+            console.log("Ready for jQuery");
+            
+            
+        $(".cg").click(function(){
+        $(".barra").toggle();    
+            });
+            
+        $(".reset").click(function(){
+            $("#bder1").width(400).show();
+            $("#bder2").width(400).show();
+            $("#bder3").width(400).show();
+            });
+            
+    
+        $("#r1").click(function(){
+        $("#bder1").toggle();
+            });
+        $("#a1").click(function(){
+        $("#bder2").toggle();
+            });
+        $("#v1").click(function(){
+        $("#bder3").toggle();
+            });    
+        
+            
+        $("#r2").click(function(){
+        $("#bder1").animate({width: "+=50px"},{duration: 1000});
+            });
+        $("#a2").click(function(){
+        $("#bder2").animate({width: "+=50px"},{duration: 1000});
+            });
+        $("#v2").click(function(){
+        $("#bder3").animate({width: "+=50px"},{duration: 1000});
+            });  
+            
+            
+        $("#r3").click(function(){
+        $("#bder1").animate({width: "-=50px"},{duration: 1000});
+            });
+        $("#a3").click(function(){
+        $("#bder2").animate({width: "-=50px"},{duration: 1000});
+            });
+        $("#v3").click(function(){
+        $("#bder3").animate({width: "-=50px"},{duration: 1000});
+            });    
+            
+            
+            
+        });
+      </script>
+  </body>
+</html>

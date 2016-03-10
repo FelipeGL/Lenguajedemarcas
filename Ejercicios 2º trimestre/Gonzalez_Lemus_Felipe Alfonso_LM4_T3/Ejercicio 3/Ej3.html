@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+  </head>
+  <body>
+      <ul id="menu1">
+            <li id="Smartphones">Smartphones
+                <ul id="lista">
+                    <li>Iphone</li>
+                    <li>Samsung</li>
+                    <li>LG</li>
+                    <li id="Xiaomi">Xiaomi
+                        <ul id="Mi5">
+                            <li>Xiaomi Mi 5</li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </li>
+            <li id="Coches">Coches
+                <ul id="ul1">
+                    <li>Skoda</li>
+                    <li>Renault</li>
+                    <li>Mercedes</li>
+                    <li>BMW</li>
+                </ul>
+            </li>
+            <li id="Motos">Motos
+                <ul id="ul2">
+                    <li>Yamaha</li>
+                    <li>Aprillia</li>
+                    <li>Kawasaki</li>
+                    <li>Honda</li>
+                </ul>
+            </li>
+            <li id="Ordenadores">Ordenadores
+                <ul id="ul3">
+                    <li>MSI</li>
+                    <li>Asus</li>
+                    <li>HP</li>
+                    <li>Dell</li>
+                </ul>
+            </li>
+        </ul>
+      
+      
+      
+      
+      
+      
+      <script type="text/javascript">
+        //This part is executed only when all the document is loaded
+        $(function() {
+            console.log("Ready for jQuery");
+        
+        $("#Smartphones").children().hide();
+        $("#Coches").children().hide();
+        $("#Motos").children().hide();
+        $("#Ordenadores").children().hide();
+            
+        $("#Smartphones").mouseenter(function(event) {
+        $(this).children().show();
+        });
+        $("#Smartphones").mouseleave(function(event) {
+        $(this).children().hide();                
+        });  
+            
+        $("#Xiaomi").mouseenter(function(event) {
+        $(this).children().show();
+        });    
+        $("#Xiaomi").mouseleave(function(event) {
+        $(this).children().hide();                
+        });
+        
+        $("#Coches").mouseenter(function(event) {
+        $(this).children().show();
+        });
+        $("#Coches").mouseleave(function(event) {
+        $(this).children().hide();                
+        });
+        
+        $("#Motos").mouseenter(function(event) {
+        $(this).children().show();
+        });
+        $("#Motos").mouseleave(function(event) {
+        $(this).children().hide();                
+        });
+        
+        $("#Ordenadores").mouseenter(function(event) {
+        $(this).children().show();
+        });
+        $("#Ordenadores").mouseleave(function(event) {
+        $(this).children().hide();                
+        });
+        
+        
+        });
+      </script>
+  </body>
+</html>
